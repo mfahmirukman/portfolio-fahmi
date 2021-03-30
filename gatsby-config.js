@@ -1,8 +1,8 @@
 require(`dotenv`).config({
   path: `.env`,
-})
+});
 
-const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
+const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE;
 
 module.exports = {
   siteMetadata: {
@@ -28,7 +28,7 @@ module.exports = {
       options: {
         name: `Cara - @lekoarts/gatsby-theme-cara`,
         short_name: `Cara`,
-        description: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
+        description: `My name is Muhammad Fahmi Rukman. I’m a software engineer living in Jakarta, Indonesia.`,
         start_url: `/`,
         background_color: `#141821`,
         theme_color: `#f6ad55`,
@@ -58,4 +58,4 @@ module.exports = {
       },
     },
   ].filter(Boolean),
-}
+};
